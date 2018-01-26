@@ -13,3 +13,10 @@ function PartyHistory_OnLoad(self)
    SLASH_PH2 = "/partyhistory";
    PartyHistory_Override = false;
 end
+
+--I'm currently testing this to see what the arguments are, and if it will
+--even work the way I want it to.
+function PartyHistory_OnEvent(self, event, ...)
+   print(event); --Should print the event name
+   print(...); --Should print all of the arguments
+end
