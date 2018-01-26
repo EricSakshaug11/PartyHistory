@@ -1,0 +1,13 @@
+<Ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="PartyHistory.lua" />
+	<Frame name="PartyHistory_MainFrame">
+		<Scripts>
+			<OnLoad>
+				PartyHistory_OnLoad(self);
+			</OnLoad>
+			<OnEvent>
+				PartyHistory_OnEvent(self,event,...);
+			</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>
