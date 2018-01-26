@@ -14,6 +14,11 @@ function PartyHistory_OnLoad(self)
    PartyHistory_Override = false;
 end
 
+--There will eventually be something here
+function PartyHistory_OnLoad()
+
+end
+
 --I'm currently testing this to see what the arguments are, and if it will
 --even work the way I want it to.
 function PartyHistory_OnEvent(self, event, ...)
