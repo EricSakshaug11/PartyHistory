@@ -1,0 +1,9 @@
+## Author: PuddlesRex
+## Interface: 73500
+## Title: PartyHistory
+## Notes: Early alpha. If you have somehow installed this on your machine, please uninstall it.
+## Version: 0.0
+## DefaultState: Enabled
+## SavedVariablesPerCharacter: PartyHistory_History
+PartyHistory.lua
+PartyHistory.xml
